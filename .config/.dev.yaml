@@ -1,0 +1,13 @@
+TEST_VALUE:
+  name: cookie
+
+MYSQL_CONFIG:
+  name: 'somuse_admin'
+  type: 'mysql'
+  host: '121.196.192.71'
+  port: 3306
+  username: 'somuse'
+  password: 'yw3ER7wXyj8SnwBe_admin'
+  database: 'somuse_admin'
+  entities: 'mysql' # 这里的命名一定要跟 MongoDB 里面的配置命名区分开
+  synchronize: true
